@@ -9,7 +9,15 @@
 
   <name>Maven_TestNGIntegration</name>
   <url>http://maven.apache.org</url>
-  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.13.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
