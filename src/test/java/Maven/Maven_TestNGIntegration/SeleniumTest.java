@@ -1,7 +1,7 @@
 package Maven.Maven_TestNGIntegration;
 
 import org.testng.annotations.Test;
-
+int acc;
 public class SeleniumTest {
 	@Test
 	public void BrowserAUtomation()
